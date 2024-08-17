@@ -3,6 +3,7 @@ package com.luotao.learningrabbitmq.consumer;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
+// direct 类型的 exchange, 会根据 routing key 匹配 queue, 不匹配的 queue 不会收到消息,
 @Component
 public class _11 {
 
