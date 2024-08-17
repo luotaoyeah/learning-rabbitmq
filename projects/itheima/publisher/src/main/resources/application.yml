@@ -1,10 +1,15 @@
 spring:
-    application:
-        name: publisher
+  application:
+    name: publisher
 
-    rabbitmq:
-        host: 127.0.0.1
-        port: 5672
-        username: luotao
-        password: admin
-        virtual-host: /luotao-v
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: luotao
+    password: admin
+    virtual-host: /luotao-v
+    connection-timeout: 1s
+    template:
+      retry:
+        enabled: true
+        max-attempts: 3

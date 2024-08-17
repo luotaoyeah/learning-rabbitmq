@@ -1,13 +1,13 @@
 spring:
-    application:
-        name: consumer
+  application:
+    name: consumer
 
-    rabbitmq:
-        host: 127.0.0.1
-        port: 5672
-        username: luotao
-        password: admin
-        virtual-host: /luotao-v
-        listener:
-            simple:
-                prefetch: 1
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: luotao
+    password: admin
+    virtual-host: /luotao-v
+    listener:
+      simple:
+        prefetch: 1
