@@ -8,3 +8,6 @@ spring:
         username: luotao
         password: admin
         virtual-host: /luotao-v
+        listener:
+            simple:
+                prefetch: 1
