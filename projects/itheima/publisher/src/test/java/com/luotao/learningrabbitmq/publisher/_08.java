@@ -13,6 +13,6 @@ class _08 {
 
     @Test
     void _01() {
-        rabbitTemplate.convertAndSend("simple.queue", "HELLO WORLD");
+        rabbitTemplate.convertAndSend("simple.queue", "HELLO WORLD AMQP");
     }
 }
