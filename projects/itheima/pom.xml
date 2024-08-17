@@ -24,7 +24,6 @@
         <module>consumer</module>
     </modules>
 
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
