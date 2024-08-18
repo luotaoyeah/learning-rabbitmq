@@ -7,22 +7,9 @@
         <groupId>com.luotao.learning-rabbitmq</groupId>
         <artifactId>learning-rabbitmq.itheima</artifactId>
         <version>0.0.1</version>
-        <relativePath/>
     </parent>
 
     <artifactId>publisher</artifactId>
     <version>0.0.1</version>
-
-    <dependencies>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
